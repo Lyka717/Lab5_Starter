@@ -96,7 +96,7 @@ test('4 Char Hex, Invalid', () => {
   expect(isHexColor('42f5')).toBe(false);
 });
 test('1 Char Hex, Invalid', () => {
-  expect(isHexColor('F')).toBe(true); //change to be incorrect
+  expect(isHexColor('F')).toBe(false);
 });
 
 
